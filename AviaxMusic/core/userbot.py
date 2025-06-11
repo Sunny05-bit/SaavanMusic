@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("AviaxOfficial")
-                await self.one.join_chat("AviaxSupport")
+                await self.one.join_chat("musicbotupdate")
+                await self.one.join_chat("musicbotupdate")
             except:
                 pass
             assistants.append(1)
@@ -135,8 +135,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("AviaxOfficial")
-                await self.one.join_chat("AviaxSupport")
+                await self.five.join_chat("musicbotupdate")
+                await self.one.join_chat("musicbotupdate")
             except:
                 pass
             assistants.append(5)
